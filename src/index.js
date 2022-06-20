@@ -4,8 +4,6 @@ import React from 'react';
 import App from './App';
 import './index.css';
 
-// ReactDOM.render(<App />, document.querySelector('#root'));
-
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 root.render(<App />);
