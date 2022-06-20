@@ -7,7 +7,7 @@ import Portfolio from './components/portfolio/Portfolio';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
-const App = () => {
+function App() {
   return (
     <Fragment>
       <Header />
@@ -19,6 +19,6 @@ const App = () => {
       <Footer />
     </Fragment>
   );
-};
+}
 
 export default App;
