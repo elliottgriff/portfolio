@@ -1,5 +1,5 @@
 header {
-    height: 70vh;
+    height: 90vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -41,10 +41,10 @@ header {
 /* image */
 
 .me {
-    width: 22rem;
+    width: 40rem;
     height: auto;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 20rem);
     margin-top: 3rem;
     border-radius: 2rem 2rem 2rem 2rem;
     overflow: hidden;
@@ -67,14 +67,22 @@ header {
     header {
         height: 68vh;
     }
+    .me {
+        width: 28rem;
+        left: calc(50% - 14rem);
+    }
 }
 
 /* media queries (small devices) */
 @media screen and (max-width: 600px) {
     header {
-        height: 100vh;
+        height: 90vh;
     }
     .header__socials, .scroll__down {
         display: none;
+    }
+    .me {
+        width: 20rem;
+        left: calc(50% - 10rem);
     }
 }
