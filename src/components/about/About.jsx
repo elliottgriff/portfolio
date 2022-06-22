@@ -7,8 +7,7 @@ import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 const About = () => {
   return (
     <section id="about">
-      <h5>get to know</h5>
-      <h2>about me</h2>
+      <h2>About Me</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -21,21 +20,24 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" />
-              <h5>3+ years</h5>
-              <small>developer experience</small>
+              <h5>3+ Years</h5>
+              <small>Developer Experience</small>
             </article>
 
             <article className="about__card">
               <AiOutlineFundProjectionScreen className="about__icon" />
-              <h5>projects</h5>
-              <small>web and mobile</small>
+              <h5>Projects</h5>
+              <small>Web and Mobile</small>
             </article>
           </div>
-
-          <p>i am a web developer with full stack and mobile experience</p>
-
+          <p>
+            I'm a Web Developer specializing in React, with experience in Full
+            Stack & Mobile applications.
+          </p>
+          <p>I have a Bachelor's Degree in Psychology.</p>
+          <p>I love soccer, music, and good coffee.</p>
           <a href="#contact" className="btn btn-primary">
-            lets talk
+            Let's Talk
           </a>
         </div>
       </div>
