@@ -35,7 +35,7 @@ const About = () => {
             Stack & Mobile applications.
           </p>
           <p>I have a Bachelor's Degree in Psychology.</p>
-          <p>I love soccer, music, and good coffee.</p>
+          <p>I love Music, Soccer, and Good Coffee.</p>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
