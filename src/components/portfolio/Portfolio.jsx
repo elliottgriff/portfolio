@@ -17,6 +17,7 @@ const Portfolio = () => {
           <h3>Creative Wall Designs</h3>
           <p>
             Interior Decorating company serving Connecticut for over 30 years.
+            Built with React and Material UI.
           </p>
           <div className="portfolio__item-cta">
             <a
@@ -27,8 +28,6 @@ const Portfolio = () => {
             >
               Website
             </a>
-          </div>
-          <div className="portfolio__item-cta">
             <a
               href="https://github.com/elliottgriff/creativewalldesigns"
               className="btn"
@@ -57,8 +56,6 @@ const Portfolio = () => {
             >
               Live Demo
             </a>
-          </div>
-          <div className="portfolio__item-cta">
             <a
               href="https://github.com/elliottgriff/meetups"
               className="btn"
@@ -87,8 +84,6 @@ const Portfolio = () => {
             >
               Live Demo
             </a>
-          </div>
-          <div className="portfolio__item-cta">
             <a
               href="https://github.com/elliottgriff/pizzashop"
               className="btn"
@@ -117,8 +112,6 @@ const Portfolio = () => {
             >
               App Store
             </a>
-          </div>
-          <div className="portfolio__item-cta">
             <a
               href="https://github.com/elliottgriff/gopiano"
               className="btn"
