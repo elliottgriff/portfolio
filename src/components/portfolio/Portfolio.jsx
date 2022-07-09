@@ -1,17 +1,44 @@
 import React from 'react';
 import MeetupsImg from '../../assets/meetupsImg.png';
 import PizzaImg from '../../assets/pizzaImg.png';
-import NoteTakerImg from '../../assets/noteTakerImg.png';
-import SimonImg from '../../assets/SimonImg.png';
 import GoPianoImg from '../../assets/goPianoImg.png';
+import CreativeTwo from '../../assets/creative2.png';
 import './Portfolio.css';
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
       <h2>Portfolio</h2>
-
       <div className="container portfolio__container">
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={CreativeTwo} alt="creativeImg" />
+          </div>
+          <h3>Creative Wall Designs</h3>
+          <p>
+            Interior Decorating company serving Connecticut for over 30 years.
+          </p>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://www.creativewalldesignsct.com"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Website
+            </a>
+          </div>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/elliottgriff/creativewalldesigns"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </div>
+        </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={MeetupsImg} alt="meetupimg" />
@@ -21,6 +48,16 @@ const Portfolio = () => {
             Add and Save your Favorite Meetup Locations with Descriptions and
             Images. Built with Firebase.
           </p>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://meetups.elliottgriff.com"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/elliottgriff/meetups"
@@ -34,13 +71,23 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={PizzaImg} alt="meetupimg" />
+            <img src={PizzaImg} alt="pizzaimg" />
           </div>
           <h3>Pizza Shop</h3>
           <p>
             Order Different Quantities of Pizza using a Dynamic Cart and
             Checkout Module. Built with Firebase.
           </p>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://pizzashop.elliottgriff.com"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/elliottgriff/pizzashop"
@@ -54,24 +101,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={NoteTakerImg} alt="meetupimg" />
-          </div>
-          <h3>Note Taker</h3>
-          <p>Clone of Google Keep.</p>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/elliottgriff/notetaker"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={GoPianoImg} alt="meetupimg" />
+            <img src={GoPianoImg} alt="goPianoImg" />
           </div>
           <h3>GoPiano</h3>
           <p>
@@ -80,12 +110,22 @@ const Portfolio = () => {
           </p>
           <div className="portfolio__item-cta">
             <a
+              href="https://apps.apple.com/us/app/gopiano/id1450201903"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              App Store
+            </a>
+          </div>
+          <div className="portfolio__item-cta">
+            <a
               href="https://github.com/elliottgriff/gopiano"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Github
+              GitHub
             </a>
           </div>
         </article>
