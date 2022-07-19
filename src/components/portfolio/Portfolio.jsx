@@ -38,34 +38,7 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={MeetupsImg} alt="meetupimg" />
-          </div>
-          <h3>Meetups</h3>
-          <p>
-            Add and Save your Favorite Meetup Locations with Descriptions and
-            Images. Built with Firebase.
-          </p>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://meetups.elliottgriff.com"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live Demo
-            </a>
-            <a
-              href="https://github.com/elliottgriff/meetups"
-              className="btn"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Github
-            </a>
-          </div>
-        </article>
+
         <article className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={PizzaImg} alt="pizzaimg" />
@@ -86,6 +59,34 @@ const Portfolio = () => {
             </a>
             <a
               href="https://github.com/elliottgriff/pizzashop"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={MeetupsImg} alt="meetupimg" />
+          </div>
+          <h3>Meetups</h3>
+          <p>
+            Add and Save your Favorite Meetup Locations with Descriptions and
+            Images. Built with Firebase.
+          </p>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://meetups.elliottgriff.com"
+              className="btn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live Demo
+            </a>
+            <a
+              href="https://github.com/elliottgriff/meetups"
               className="btn"
               target="_blank"
               rel="noopener noreferrer"

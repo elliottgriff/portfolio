@@ -31,8 +31,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            I'm a Web Developer specializing in React, with experience in Full
-            Stack & Mobile applications.
+            I'm a Web Developer with 3+ years of experience in building Web &
+            Mobile applications.
           </p>
           <p>I have a Bachelor's Degree in Psychology.</p>
           <p>I love Music, Soccer, and Good Coffee.</p>
